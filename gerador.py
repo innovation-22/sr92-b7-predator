@@ -3,7 +3,7 @@ import os
 # Create the generated directory if it doesn't exist
 os.makedirs("generated", exist_ok=True)
 
-report_content = """# DOCUMENTO OFICIAL: PROJETO SR-92 B6 "PREDADOR"
+report_content = """# DOCUMENTO OFICIAL: PROJETO SR-92 B7 "PREDADOR"
 Classificação: Ultra-Secreto / Nível Soberania Global
 Fase: Conceito de Engenharia Homologado (Orçamento: Escala de Trilhões)
 Operação: Híbrida (Autonomia de Voo com Supervisão Estratégica Humana)
@@ -11,7 +11,7 @@ Operação: Híbrida (Autonomia de Voo com Supervisão Estratégica Humana)
 ===============================================================================
 1. ESPECIFICAÇÕES DIMENSIONAIS E ESTÉTICA
 ===============================================================================
-O SR-92 B6 abandona o design de caças tradicionais, adotando o porte imponente de um bombardeiro estratégico com a silhueta agressiva de um predador alfa.
+O SR-92 B7 abandona o design de caças tradicionais, adotando o porte imponente de um bombardeiro estratégico com a silhueta agressiva de um predador alfa.
 
 * Comprimento: 49 metros (O dobro do tamanho de um caça comum, garantindo volume para carga e sistemas internos).
 * Design: Blended Wing Body (Fuselagem e asas fundidas em uma única peça contínua, formato de arraia ou ponta de lança triangular ultra-afiada).
@@ -32,7 +32,7 @@ Projetada para suportar curvas inimagináveis e calor extremo sem sofrer fadiga 
 ===============================================================================
 3. PROPULSÃO E FLUIDODINÂMICA QUÂNTICA
 ===============================================================================
-O SR-92 B6 não apenas resiste ao atrito, ele usa as leis da física para se alimentar dele.
+O SR-92 B7 não apenas resiste ao atrito, ele usa as leis da física para se alimentar dele.
 
 * Velocidade de Cruzeiro: Mach 4.0
 * Velocidade de Ataque: Mach 7.0+
