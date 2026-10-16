@@ -41,6 +41,44 @@ O SR-92 B7 não apenas resiste ao atrito, ele usa as leis da física para se ali
 * Combustão Endotérmica: O combustível circula pelas asas antes da queima, absorvendo o calor do atrito. Ele entra na câmara do Scramjet já superaquecido a 1000°C, gerando uma explosão de empuxo que projeta o caça a Mach 7 de forma instantânea.
 * Atuadores de Plasma: Substituem os flaps mecânicos. Micro-canais nas bordas das asas liberam descargas elétricas de alta voltagem para ionizar o ar ao redor. A IA muda a direção do avião alterando o fluxo de ar eletricamente, garantindo a execução segura dos 80 Gs.
 
+================================================================================
+1. ARQUITETURA DE PROPULSÃO: TRÍADE ENERGÉTICA (TEA)
+================================================================================
+O SR-92 B7 utiliza uma arquitetura de propulsão híbrida em três camadas para suportar
+altos regimes de rendimento térmico, gerenciamento de fluxo de plasma por magneto-
+hidrodinâmica e resposta de ignição instantânea a baixas altitudes.
+
+* Camada 1 (Matriz Energética Primária - Slurry de Boro e Hidrocarboneto Endotérmico):
+  - Combustível: Suspensão metálica de alta densidade (Boro Micronizado em carreador endotérmico).
+  - Rendimento Térmico: ~58 MJ/kg de saída operacional base.
+  - Função: Absorve o calor cinético gerado pelo atrito atmosférico antes da injeção na câmara de combustão.
+
+* Camada 2 (Controle de Fluxo e Aceleração - Canal MHD):
+  - Injeção de Ionização: Micro-doses de compostos de baixa energia de ionização (Césio/Potássio) no fluxo de ar supersônico.
+  - Controle de Admissão: Desacelera o ar de entrada por indução magnética, convertendo energia cinética bruta em eletricidade de bordo.
+  - Aceleração de Exaustão: Reenergiza o plasma térmico no canal de saída, maximizando o empuxo axial sem peças móveis mecânicas.
+
+* Camada 3 (Catalisador de Ignição por Ressonância Quântica - Era Quântica):
+  - Tempo de Ignição: Ativação catalítica em sub-milissegundos gerenciada pelo nó de computação quântica autônoma (Human-in-the-Loop).
+  - Estabilidade de Combustão: Elimina atrasos e instabilidades em transições rápidas de velocidade (regimes de Mach 2.0 a Mach 3.0+) em ar denso.
+
+================================================================================
+2. TERMORREGULAÇÃO AVANÇADA: PELE TRANSPIRANTE E ESCUDO TÉRMICO
+================================================================================
+Para impedir que o fluxo de ar a 2.000 °C comprometa a integridade da fuselagem em voos de baixa cota e alta velocidade, o SR-92 B7 emprega um sistema de resfriamento ativo de superfície integrado à propulsão:
+
+* Micro-Porosidade e Isolação Superficial:
+  - Microporos estrategicamente distribuídos ao longo do Material Quimera expelem continuamente uma fina camada de gás combustível endotérmico refrigerado.
+  - Cria um escudo fluido que impede o contato térmico direto entre o ar hiperveloz e a estrutura cerâmica primária.
+
+* Integração Direta com a Tríade Energética (Ganho Térmico):
+  - O combustível endotérmico cumpre dupla função: primeiro absorve o calor interno da fuselagem (resfriamento regenerativo), depois é expelido pela pele para formar a barreira externa.
+  - O gás que escorre pela fuselagem é naturalmente recolhido pela admissão do Scramjet logo a jusante, garantindo que nenhum subproduto energético seja desperdiçado na queima.
+
+* Impacto no Canal Magneto-Hidrodinâmico (MHD):
+  - O gás endotérmico expelido pelos microporos já carrega aditivos ionizantes. Ao ser aspirado para a admissão, ele facilita instantaneamente a criação do canal de plasma condutor exigido pelo sistema MHD.
+  - O sopro controlado através dos poros atua ativamente na supressão da turbulência da camada limite, reduzindo de forma drástica o arrasto aerodinâmico parasita.
+
 ===============================================================================
 4. ARQUITETURA DA IA EXPERIMENTAL (HUMAN-IN-THE-LOOP)
 ===============================================================================
@@ -70,7 +108,8 @@ Toda a carga útil é mantida oculta para manter o perfil stealth e aerodinâmic
 * Armas de Energia Direcionada (DEW): Pequenas fendas ópticas nas laterais e cauda abrigam Canhões de Laser de Estado Sólido de alta potência para derreter mísseis inimigos pelas costas sem gastar munição física.
 
 ===============================================================================
-## 1. SISTEMA DE LANÇAMENTO ELETROMAGNÉTICO & TAMBOR ROTATIVO (COLD LAUNCH)
+1. SISTEMA DE LANÇAMENTO ELETROMAGNÉTICO & TAMBOR ROTATIVO (COLD LAUNCH)
+===============================================================================
 - Tambor tipo "pistola" interno na barriga da aeronave para preservar a furtividade.
 - Trilho eletromagnético para ejeção a frio (afasta o míssil antes da ignição, evitando danos térmicos).
 - Código de controle embarcado (Simulação):
@@ -88,12 +127,12 @@ class HypersonicArsenalSystem:
         time.sleep(1)
         print("Ignição do motor acionada no ar.")
 ===============================================================================
-## 2. DEEP MAGAZINE (MAGAZINE PROFUNDO E MASSIVO)
+2. DEEP MAGAZINE (MAGAZINE PROFUNDO E MASSIVO)
 - Armazenamento interno massivo em compartimentos blindados e modulares.
 - Permite carregar dezenas de mísseis de longo alcance sem expor a aerodinâmica ou o radar.
 - Sustentabilidade de combate extrema em zonas de defesa antiaérea saturadas (A2/AD).
 ===============================================================================
-## 3. INDEPENDÊNCIA OPERACIONAL
+3. INDEPENDÊNCIA OPERACIONAL
 - Operação autossuficiente em território hostil profundo (deep-strike).
 - Elimina a necessidade de escoltas ou reabastecimento tático em tempo real.
 - IA quântica gerencia a penetração, supressão de alvos, defesa (RAIDS) e retorno sem risco humano.
